@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Poppins';
+}
+.navbar {
+    height: 80px;
+    border-bottom: 1px solid #E5E5E5;
+    background-color: #FFFFFF !important;
+}
+
+.navbar .nav-link {
+    color: #333333 !important;
+}
+.navbar .nav-link.active {
+    font-weight: 500;
+    color: #3252DF !important;
+}
+
+
+/* HERO SECTION */
+section#hero .title-hero {
+    font-size: 48px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+section#hero .subtitle-hero {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 170%;
+    color: #aaaaaa;
+    margin-bottom: 30px;
+}
+
+section#hero .input-hero {
+    max-width: 360px;
+
+}
+section#hero .input-hero select {
+    height: 56px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+section#hero .btn-hero {
+    margin-left: 12px;
+    background: #3252DF;
+    box-shadow: 0px 8px 15px rgba(50, 82, 223, 0.3);
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+
+/* Category Hero Section */
+section#category-hero .title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+}
+
+section#category-hero .sub-title {
+    color: #6e6e6e;
+    font-size: 18px;
+}
